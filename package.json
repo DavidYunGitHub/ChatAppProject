@@ -17,6 +17,7 @@
     "mustache-express": "^1.2.8",
     "pg": "^7.11.0",
     "sequelize": "^5.8.10",
+    "sequelize-cli": "^5.5.0",
     "socket.io": "^2.2.0"
   }
 }

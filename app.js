@@ -51,7 +51,9 @@ app.use(require('./routes/xboxshooter.js'))
 
 
 
-var server = app.listen(PORT, () => console.log('Server is running...'))
+var server = app.listen(8080, '172.31.29.168', ()=>{
+console.log('running')
+})
 
 //socket setup
 var io = socket(server);

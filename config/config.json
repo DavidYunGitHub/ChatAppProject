@@ -1,25 +1,9 @@
 {
   "development": {
-    "username": "chatadmin",
-    "password": "april1337",
-    "database": "chatdb",
-    "host": "chatapp.czxc8a0p5a3i.us-east-2.rds.amazonaws.com",
+    "username": "test",
+    "password": "test12",
+    "database": "test",
+    "host": "127.0.0.1",
     "dialect": "postgres"
-  },
-  "test": {
-    "username": "root",
-    "password": null,
-    "database": "database_test",
-    "host": "127.0.0.1",
-    "dialect": "mysql",
-    "operatorsAliases": false
-  },
-  "production": {
-    "username": "root",
-    "password": null,
-    "database": "database_production",
-    "host": "127.0.0.1",
-    "dialect": "mysql",
-    "operatorsAliases": false
   }
 }
